@@ -1,3 +1,6 @@
+import sys, math
+input = sys.stdin.readline
+
 for i in range(int(input())):
     s = input()
     rev = s[::-1]
